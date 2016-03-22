@@ -1,9 +1,37 @@
 body {
+	padding-top: 70px;  /*the space between nav and the body  */
+}
 
-	background-color: #ff0000; /*New company color*/
-
-	/*This is a comment line in a css file.*/
-
-
-
+nav {
+	background-color: #333333;
+	color: white;   /* the color of the text */
+	position: fixed;
+	right: 0;    /*0px from the right of the browser */
+	left: 0;   /*0px from the left of the browser */
+	top: 0;  /*0px from the top of the browser */
+}
+nav img:first-child {
+	float: left;    /*for the list to move to the right */
+}
+nav ul {
+	float: left;
+}
+nav li {
+	display: inline-block; /*to align the list items*/
+}
+nav img:last-child {
+	float: right;
+}
+nav:after {
+		content: '';
+		display: block;
+		clear: both;
+}
+#social-bar {    /*positioning the social-bar in relation to the browser, not to the contents */
+	height: 150px;
+	background-color: orange;
+	width: 50px;
+	position: fixed;   /* to stay fixed*/
+	top: calc(50% - 10px);    /* to stay fixed*/
+	right: 0;
 }
