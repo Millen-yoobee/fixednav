@@ -70,3 +70,9 @@ main {
 	top: 10px;
 }
 
+.tip img {
+	position: absolute;
+	left: 0;
+	top: 100%;
+
+}
