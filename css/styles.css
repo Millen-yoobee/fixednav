@@ -42,3 +42,18 @@ main {
 .warning i {
 	left: 17px;
 }
+.feature {
+	background-color: white;
+	width: 300px;
+	padding: 10px;
+	position: relative;
+	padding-top: 30px;
+	margin-top: 80px;
+}
+.feature img {
+	position: absolute;
+	top: -60px;
+	left: calc(50% - 50px);  /*50px is half the width of the image */
+	border-radius: 50%;    /*to make img round  */
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
+}
