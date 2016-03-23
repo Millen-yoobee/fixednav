@@ -74,5 +74,19 @@ main {
 	position: absolute;
 	left: 0;
 	top: 100%;
-
+}
+.popup:hover span {
+	display: inline-block;
+	background-color: #333333;
+	color: white;   /*color of text that appears when you hover above "americus" */
+	padding: 5px;
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+}
+.popup span {
+	display: none;
+}
+.popup {
+	position: relative;
 }
